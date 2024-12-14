@@ -99,7 +99,7 @@ int main() {
     int lastRow = -1, lastCol = -1;
     srand(time(NULL));
 
-    losujplansze(board,1);
+    losujplansze(board,10);
 
     for(int i = 0;i < SIZE; i++){
         for(int j = 0; j< SIZE;j++) {
